@@ -1,8 +1,10 @@
 ﻿namespace ContractMonthlyClaimSystem.Models
 {
-    public class ClaimApplication:UserActivity
+    public class ClaimApplication: ApprovalActivity
     {
         public int Id { get; set; }
+        public string UserName { get; set; }
+
         public string LecturerId { get; set; }
         public Lecturer Lecturer { get; set; }
 
@@ -26,6 +28,8 @@
 
         public Lecturer Rate { get; set; }
         public int RateId { get; set; }
+
+        public int Status { get; set; }
 
         public string Description {  get; set; }
 
