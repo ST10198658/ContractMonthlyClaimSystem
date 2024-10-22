@@ -218,7 +218,78 @@
                                 </p>
                             </a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Claims Application
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Claims" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Submit Claims</p>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Programme Coordinator
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Coordinators" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Coordinator Identity</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Coordinators" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Verified Claims</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Programme Manager
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Managers" class="nav-link">                                
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Manager Identity</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Managers" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Approved or Rejected Claims</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

@@ -11,5 +11,14 @@ namespace ContractMonthlyClaimSystem.Data
         {
         }
         public DbSet<Lecturer> Lecturer { get; set; }
+
+        public DbSet<Claim> Claims { get; set; }
+
+        public DbSet<Coordinator> Coordinators { get; set;}
+
+        public DbSet<Manager> Managers { get; set; }
+
+        
+
     }
 }
